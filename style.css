@@ -1,0 +1,65 @@
+* {
+	margin:0;
+	padding:0;
+	}
+
+body{
+	text-align:center;
+}
+
+#geral{
+	width:720px;
+	margin:0 auto;
+	text-align:left;
+	border:1px solid #c30;
+}
+
+#topo{
+	background: url(media/img/topo.png) no-repeat;
+	height:91px;
+}
+
+.atributos input[type=checkbox]{
+	visibility: hidden;
+    margin-right: 8px;
+    cursor: pointer;
+	
+}
+
+.atributos input[type=checkbox]:before{
+	content: "";
+    display: inline-block;
+    margin-right: 15px;
+    width: 16px;
+    height: 16px;
+    visibility: visible;
+   background:url(media/img/check.png) no-repeat;
+}
+.atributos input[type=checkbox]:checked:before{
+	background:url(media/img/check_houver.png) no-repeat;
+}
+
+#direita{
+	width:240px;
+	float:left;
+}
+
+#centro{
+	width:240px;
+	float:left;
+}
+#esquerda{
+	width:240px;
+	float:left;
+
+}
+
+#status{
+	height: 70px;
+	background: #eee;
+}
+
+#atributos{
+	height:90px;
+	background: #dddd;
+}
